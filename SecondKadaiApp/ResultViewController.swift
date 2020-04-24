@@ -19,8 +19,8 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // 入力された名前を表示する
         label.text = "こんにちは、 \(name) さん"
-
 
         // Do any additional setup after loading the view.
     }
